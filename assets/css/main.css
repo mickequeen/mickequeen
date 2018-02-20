@@ -1,0 +1,25 @@
+*{
+  box-sizing: border-box;
+}
+.navbar{
+  padding: 1em;
+}
+.navbar-collapse{
+  padding-left: 53%;
+}
+
+.navbar-collapse a{
+  margin-left: 1em;
+}
+
+.navbar-brand {
+  margin-left: 5%;
+  font-family: 'Courgette', cursive;
+  font-size: 23px;
+}
+
+
+
+body{
+  font-family: 'Kalam', cursive;
+}
