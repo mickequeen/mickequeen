@@ -15,7 +15,7 @@
 .navbar-brand {
   margin-left: 5%;
   font-family: 'Courgette', cursive;
-  font-size: 23px;
+  font-size: 2em;
 }
 
 body{
@@ -41,7 +41,7 @@ section{
 
 .slider{
   height: 0px;
-  top : 21em;
+  top : 60%;
   text-align: center;
   position: relative;
   animation: slideColor 10s forwards infinite;
