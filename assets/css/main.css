@@ -22,6 +22,9 @@ body{
   font-family: 'Kalam', cursive;
 }
 
+p{
+  font-family: 'Courgette', cursive;
+}
 /*alto de todas las secciones*/
 section{
   height: 100vh;
@@ -34,16 +37,6 @@ section{
   background: #000;
   overflow: hidden;
   margin-top: -2em;
-}
-
-  
-h2{
-  position: relative;
-  color: rgb(70,70,120);
-  text-align: center;
-  font-size: 2rem;
-  z-index: 100;
-  top: 5em;
 }
 
 .slider{
@@ -160,17 +153,53 @@ h2{
 }
 
 #about{
-  background-color: red;
+  background-color: #FFF;
+}
+
+#description{
+  text-align: center;
+  top: 9em;
+}
+
+#about h1{
+  font-weight: bold;
+  font-size: 4em;
+  margin-bottom: 0.7em;
+}
+#about p{
+  font-size: 1.3em;
+  text-align: justify;
+}
+#about img{
+  margin-top: 9em;
+  height: 20em;
+  width: 20em;
+  border-radius: 20em;
 }
 
 #skills{
-  background-color: blue;
+  background-color: #5B4DA8;
 }
 
 #works{
-  background-color: yellow;
+  background-color: #FFF;
 }
 
 #contact{
-  background-color: black;
+  background-color: #616CBF;
+}
+
+
+@media only screen and (max-width: 778px) {
+  #about{
+    height: auto;
+    margin-bottom: 5em!important;
+  }
+}
+
+@media only screen and (max-width: 993px) {
+  #about{
+    height: auto;
+    margin-bottom: 9em;
+  }
 }
