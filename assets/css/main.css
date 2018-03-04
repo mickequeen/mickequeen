@@ -197,7 +197,7 @@ section{
     padding-left: 20%;
   }
   .slider{
-    top: 55%;
+    top: 50%!important;
   }
   .text-box{
     top:-0.8em;
