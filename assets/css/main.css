@@ -22,9 +22,13 @@ body{
   font-family: 'Kalam', cursive;
 }
 
+/*alto de todas las secciones*/
+section{
+  height: 100vh;
+}
+
 #animation{
 	width: 100%;
-  height: 94vh;
   padding: 0;
   margin: 0;
   background: #000;
@@ -153,4 +157,20 @@ h2{
     transform: rotateX(30deg);
     opacity: 0;
   }
+}
+
+#about{
+  background-color: red;
+}
+
+#skills{
+  background-color: blue;
+}
+
+#works{
+  background-color: yellow;
+}
+
+#contact{
+  background-color: black;
 }
