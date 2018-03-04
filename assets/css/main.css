@@ -190,10 +190,25 @@ section{
 }
 
 
+@media only screen and (max-width: 600px) {
+  .caption{
+    font-size: 35px;
+    text-align: center;
+    padding-left: 30%;
+  }
+  .text-box{
+    top:-0.8em;
+  }
+}
+
+
 @media only screen and (max-width: 778px) {
   #about{
     height: auto;
     margin-bottom: 5em!important;
+  }
+  #about p{
+    padding: 0em 0.8em;
   }
 }
 
