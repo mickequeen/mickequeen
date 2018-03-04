@@ -196,9 +196,6 @@ section{
     text-align: center;
     padding-left: 20%;
   }
-  .slider{
-    top: 50%!important;
-  }
   .text-box{
     top:-0.8em;
   }
@@ -218,6 +215,9 @@ section{
   }
   #about p{
     padding: 0em 0.8em;
+  }
+  .slider{
+    top: 45%!important;
   }
 }
 
