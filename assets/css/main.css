@@ -216,8 +216,11 @@ section{
   #about p{
     padding: 0em 0.8em;
   }
+  #animation{
+    height: 95vh;
+  }
   .slider{
-    top: 45%!important;
+    top: 55%!important;
   }
 }
 
