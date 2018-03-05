@@ -61,7 +61,7 @@ section{
 .text-box{
   left: 1.5em;
   position: relative;
-  top: -0.5em;
+  top: -0.4em;
 }
 
 .text-box div{
@@ -161,7 +161,7 @@ section{
   top: 9em;
 }
 
-#about h1{
+.title{
   font-weight: bold;
   font-size: 4em;
   margin-bottom: 0.7em;
@@ -178,7 +178,30 @@ section{
 }
 
 #skills{
-  background-color: #5B4DA8;
+  background-color: #616CBF;
+  padding-top: 4em;
+  color: #FFF;
+  line-height: 5em;
+}
+
+#skills .title{
+  margin-bottom: 1.5em;
+}
+.icons{
+  padding-bottom: 3em;
+}
+
+#skills a{
+  margin-bottom: 2em;
+  text-decoration: none;
+}
+#skills i:hover {
+  filter: grayscale(0%);
+}
+#skills i{
+  font-size: 6em;
+  margin-bottom: 5em;
+  filter: grayscale(100%) brightness(3.5);
 }
 
 #works{
@@ -212,6 +235,9 @@ section{
   }
   .slider{
     top: 55%!important;
+  }
+  #skills{
+    height: auto;
   }
 }
 
