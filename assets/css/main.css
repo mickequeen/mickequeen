@@ -22,12 +22,15 @@ body{
   font-family: 'Kalam', cursive;
 }
 
+section h1{
+  font-family: 'Roboto', sans-serif;
+}
 p{
   font-family: 'Courgette', cursive;
 }
 /*alto de todas las secciones*/
 section{
-  height: 100vh;
+  height: 105vh;
 }
 
 #animation{
@@ -152,6 +155,9 @@ section{
   }
 }
 
+/*
+*customizado de secciones
+*/
 #about{
   background-color: #FFF;
 }
@@ -177,9 +183,9 @@ section{
   border-radius: 20em;
 }
 
-#skills{
-  background-color: #616CBF;
-  padding-top: 4em;
+#skills, #contact {
+  background-color: #343a40db;
+  padding-top: 6.5em;
   color: #FFF;
   line-height: 5em;
 }
@@ -205,9 +211,10 @@ section{
 }
 
 #works{
+  padding-top: 2em;
   background-color: #FFF;
   height: auto;
-  padding-bottom: 1.5em;
+  padding-bottom: 4em;
 }
 
 #works h1{
@@ -218,7 +225,12 @@ section{
 }
 
 #contact{
-  background-color: #616CBF;
+  background-color: #343a40db;
+}
+
+footer{
+  height: 4em;
+  padding-top: 1.2em; 
 }
 
 

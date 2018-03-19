@@ -1,6 +1,5 @@
 $(document).ready(function(){
 
-
 /*
 *funcionamiento de canvas
 */
@@ -46,7 +45,7 @@ if (window.innerWidth < 520) {
     setCanvasWidth();
     
     window.setInterval( () => {
-      if (sparks.length < OPT.amount) {
+        if (sparks.length < OPT.amount) {
         addSpark();
       }
     }, 1000 / OPT.amount);
@@ -113,8 +112,12 @@ if (window.innerWidth < 520) {
 /*
 *Fin a area de animación
 */
-
-
+/*
+*inicio area de efectos por seccion
+*/
+$('#about').smoove({
+    offset: '50%'
+  });
 
 
 });
