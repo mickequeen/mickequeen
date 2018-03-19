@@ -115,7 +115,7 @@ if (window.innerWidth < 520) {
 /*
 *inicio area de efectos por seccion
 */
-$('#about').smoove({
+$('#about, #works, #skills, #contact').smoove({
     offset: '50%'
   });
 
