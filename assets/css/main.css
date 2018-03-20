@@ -224,9 +224,22 @@ section{
   height: 12em;
 }
 
+#works button{
+  margin-left: 1em;
+}
 #contact{
   background-color: #343a40db;
 }
+
+#linksContact{
+  margin-top: 1.6em;
+  font-size: 4em;
+}
+
+#linksContact a{
+  color: #fff;
+}
+
 
 footer{
   height: 4em;
