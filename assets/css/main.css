@@ -220,6 +220,14 @@ section{
 #works h1{
   padding-top: 1em;
 }
+
+.card{
+  box-shadow: -1px -1px 20px 0px #939393a1;
+  border: none;
+  margin-bottom: 2em!important;
+  border-radius: 0em;
+}
+
 .card-img-top{
   height: 12em;
 }
@@ -243,13 +251,18 @@ section{
 
 footer{
   height: 4em;
-  padding-top: 1.2em; 
+  padding-top: 1.2em;
 }
 
 @media(max-width: 991px){
   #about{
     height: auto;
     margin-bottom: 5em!important;
+  }
+  #projectsRow{
+    max-width: 625px;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 
